@@ -1,0 +1,8 @@
+com.domain.weather
+com.domain.weather.controller
+com.domain.weather.entity
+com.domain.weather.exception
+com.domain.weather.jpa
+com.domain.weather.model
+com.domain.weather.service
+com.domain.weather.utility

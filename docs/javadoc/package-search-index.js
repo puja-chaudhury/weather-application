@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.domain.weather"},{"l":"com.domain.weather.controller"},{"l":"com.domain.weather.entity"},{"l":"com.domain.weather.exception"},{"l":"com.domain.weather.jpa"},{"l":"com.domain.weather.model"},{"l":"com.domain.weather.service"},{"l":"com.domain.weather.utility"}]

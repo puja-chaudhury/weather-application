@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.h2.console.enabled=true
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+apiKey=36383c65dd78cb96745b95fcf8762c66
+
+springdoc.swagger-ui.path=/api-docs
+springdoc.api-docs.path=/v3/api-docs
