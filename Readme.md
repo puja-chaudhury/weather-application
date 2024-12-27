@@ -15,7 +15,7 @@ Docker (optional for containerization)
 
 ## 🛠️ Installation & Running
 Clone the Repository:
-git clone https://github.com/your-repo/weather-application.git
+git clone https://github.com/puja-chaudhury/weather-application.git
 cd weather-application
 
 **Steps to Create an Access Key from Weatherstack:**
@@ -39,33 +39,37 @@ docker run -p 8080:8080 weather-application
 ## 🔍 API Documentation
 http://localhost:8080/swagger-ui/index.html
 
-## 🔍 API Endpoints
+## 🔍 API Endpoints  
 Save Weather Data
-POST /app/weather
-Description:Save weather details for a given postal code.
-Responses:
-200 – Success (Returns WeatherSummaryDTO.WeatherHistory)
-400 – Invalid Request (WeatherException)
-500 – Internal Server Error (WeatherException)
 
-Get Weather History
-GET /app/history
-Description:Retrieve weather history details for a user and/or postal code.
-Query Parameters:
-user – (optional) User identifier
-postalCode – (optional) Postal code
-Responses:
-200 – Success (Returns WeatherSummaryDTO)
-400 – Bad Request (WeatherException)
-500 – Internal Server Error (WeatherException)
+POST /app/weather  
+Description:Save weather details for a given postal code.  
+Responses:  
+200 – Success (Returns WeatherSummaryDTO.WeatherHistory)  
+400 – Invalid Request (WeatherException)  
+500 – Internal Server Error (WeatherException)  
+
+Get Weather History  
+
+GET /app/history  
+Description:Retrieve weather history details for a user and/or postal code.  
+Query Parameters:  
+user – (optional) User identifier  
+postalCode – (optional) Postal code  
+Responses:  
+200 – Success (Returns WeatherSummaryDTO)  
+400 – Bad Request (WeatherException)  
+500 – Internal Server Error (WeatherException)  
 
 ## 🧬 Exception Handling
-The application handles errors gracefully and returns structured JSON error responses:
-W-0001: Invalid postal code
-W-0002: User not found
-W-0003: Resource not found
-W-0004: Internal server error
-W-0005: Invalid request body
+
+The application handles errors gracefully and returns structured JSON error responses:  
+W-0001: Invalid postal code  
+W-0002: User not found  
+W-0003: Resource not found  
+W-0004: Internal server error  
+W-0005: Invalid request body  
+W-0006: Invalid access key  
 
 ## 📝 License
 MIT License

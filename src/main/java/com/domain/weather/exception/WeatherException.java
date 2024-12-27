@@ -26,7 +26,7 @@ public class WeatherException extends RuntimeException {
     public static final String NOT_FOUND_ERROR = "W-0003";
     public static final String INTERNAL_SERVER_ERROR = "W-0004";
     public static final String INVALID_REQUEST_ERROR = "W-0005";
-    public static final String INVALID_ACCESS_KEY = "W-0005";
+    public static final String INVALID_ACCESS_KEY = "W-0006";
 
     @Schema(description = "Error code")
     private String code;
